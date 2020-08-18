@@ -383,6 +383,12 @@ body {
 }
 
 
+@media (min-width: 100px) {
+  .acell2 {
+    font-size: 8px;
+  }
+}
+
 @media (min-width: 600px) {
   .periodic {
     height: 460px;
@@ -392,6 +398,11 @@ body {
   .element {
     right: 2px;
     bottom: 2px;
+  }
+
+
+  .acell2 {
+    font-size: 13px;
   }
 
   .at_num,
@@ -416,6 +427,9 @@ body {
     height: 540px;
   }
 
+  .acell2 {
+    font-size: 13px;
+  }
   .symbol {
     font-size: 20px;
   }
@@ -436,6 +450,10 @@ h1 {
     font-size: 8px;
   }
 
+  .acell2 {
+    font-size: 14px;
+  }
+
   .symbol {
     font-size: 24px;
   }
@@ -453,6 +471,9 @@ h1 {
     color: white;
   }
 
+  .acell2 {
+    font-size: 15px;
+  }
   .at_num,
   .at_details {
     font-size: 9px;
